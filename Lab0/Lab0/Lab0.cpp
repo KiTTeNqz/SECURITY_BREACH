@@ -24,13 +24,6 @@ bool matcher(char* guess, string ans, int correct) {
 
 }
 
-void swap(char* a, int i, int j)
-{
-	char s = a[i];
-	a[i] = a[j];
-	a[j] = s;
-}
-
 bool nextComb(char* a, int n, int m)
 {
 	int j = m - 1;
