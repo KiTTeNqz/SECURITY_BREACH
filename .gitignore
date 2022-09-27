@@ -31,3 +31,7 @@
 *.out
 *.app
 /Lab0/.vs/Lab0/v17/Browse.VC.opendb
+/Lab2/.vs/Lab2/v17/Browse.VC.db
+/Lab2/.vs/Lab2/v17/Browse.VC.opendb
+/Lab2/.vs/Lab2/v17/Browse.VC.db-wal
+/Lab2/.vs/Lab2/v17/Browse.VC.db-shm
