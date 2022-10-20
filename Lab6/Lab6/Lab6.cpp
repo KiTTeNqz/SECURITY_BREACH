@@ -93,6 +93,7 @@ int main() {
 	vector<int> loOut;
 	vector<int> lsOut;
 	bool flag = false;
+	string answer;
 	do {
 		//cout << "object: ";
 		//Print(lo, m);
@@ -108,6 +109,22 @@ int main() {
 			if (flag) {
 				loOut = arrToVec(lo, m);
 				lsOut = arrToVec(ls, n);
+
+				cout << "Субъекты: ";
+				for (int i = 0; i < n; i++)
+					cout << lsOut[i];
+				cout << endl;
+
+				cout << "Объекты: ";
+				for (int i = 0; i < m; i++)
+					cout << loOut[i];
+				cout << endl;
+
+				cout << "Продолжить поиск? (Y/N): ";
+				cin >> answer;
+				if (answer == "Y")
+					flag = false;
+
 			}
 		} while (nextSet(ls, k, n)&&!flag);
 	} while (nextSet(lo, k, m)&&!flag);
