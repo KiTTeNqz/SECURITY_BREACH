@@ -9,7 +9,9 @@ string generate() // рандоматор прав доступа на чтен�
 	int a = rand() % 2;
 	if (a == 1)
 		return "W";
-	else return "R";
+	if (a == 2)
+		return "R";
+	else return "RW";
 }
 
 bool check(int n, int m, int* ls, int* lo, vector<vector<string>> matrix) {
@@ -17,7 +19,8 @@ bool check(int n, int m, int* ls, int* lo, vector<vector<string>> matrix) {
 		for (int j = 0; j < m; j++)
 			if (
 				(ls[i] > lo[j] && matrix[i][j] == "W") ||
-				(ls[i] <= lo[j] && matrix[i][j] == "R")
+				(ls[i] < lo[j] && matrix[i][j] == "R") || 
+				(ls[i] != lo[j] && matrix[i][j] == "RW")
 				) {
 				//cout << "ERROR. SUBJECT " << ls[i] << " TRYING TO " << matrix[i][j] << " OBJECT " << lo[i] << endl;
 				return false;
@@ -83,7 +86,7 @@ int main() {
 	for (int i = 0; i < n; i++) {
 		for (int j = 0; j < m; j++)
 		{
-			cout << RW[i][j];
+			cout << RW[i][j]<<" ";
 		}
 		cout << endl;
 	}
