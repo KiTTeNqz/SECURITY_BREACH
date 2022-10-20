@@ -6,7 +6,7 @@ using namespace std;
 
 string generate() // рандоматор прав доступа на чтение и запись
 {
-	int a = rand() % 2;
+	int a = rand() % 3;
 	if (a == 1)
 		return "W";
 	if (a == 2)
