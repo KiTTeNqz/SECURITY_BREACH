@@ -1,0 +1,7 @@
+﻿  Lab7_1.cpp
+C:\Users\Дмитрий\source\repos\SECURITY_BREACH\Lab7_1\Lab7_1\Lab7_1.cpp(16,8): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+C:\Users\Дмитрий\source\repos\SECURITY_BREACH\Lab7_1\Lab7_1\Lab7_1.cpp(175,31): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Дмитрий\source\repos\SECURITY_BREACH\Lab7_1\Lab7_1\Lab7_1.cpp(194,24): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Дмитрий\source\repos\SECURITY_BREACH\Lab7_1\Lab7_1\Lab7_1.cpp(381,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+C:\Users\Дмитрий\source\repos\SECURITY_BREACH\Lab7_1\Lab7_1\Lab7_1.cpp(383,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  Lab7_1.vcxproj -> C:\Users\Дмитрий\source\repos\SECURITY_BREACH\Lab7_1\x64\Debug\Lab7_1.exe
