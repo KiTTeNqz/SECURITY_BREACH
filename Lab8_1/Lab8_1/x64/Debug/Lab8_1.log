@@ -1,0 +1,7 @@
+﻿  Lab8_1.cpp
+C:\Users\Дмитрий\source\repos\SECURITY_BREACH\Lab8_1\Lab8_1\Lab8_1.cpp(17,9): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\Дмитрий\source\repos\SECURITY_BREACH\Lab8_1\Lab8_1\Lab8_1.cpp(15,6): warning C4101: i: неиспользованная локальная переменная
+C:\Users\Дмитрий\source\repos\SECURITY_BREACH\Lab8_1\Lab8_1\Lab8_1.cpp(136,12): warning C4244: инициализация: преобразование "int" в "float", возможна потеря данных
+C:\Users\Дмитрий\source\repos\SECURITY_BREACH\Lab8_1\Lab8_1\Lab8_1.cpp(137,19): warning C4244: инициализация: преобразование "unsigned __int64" в "float", возможна потеря данных
+C:\Users\Дмитрий\source\repos\SECURITY_BREACH\Lab8_1\Lab8_1\Lab8_1.cpp(157,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  Lab8_1.vcxproj -> C:\Users\Дмитрий\source\repos\SECURITY_BREACH\Lab8_1\x64\Debug\Lab8_1.exe
