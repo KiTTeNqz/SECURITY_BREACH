@@ -178,27 +178,25 @@ void parseCom(string command) {
 void init(int objCount, int subjCount, int firmCount, int interCount) {
     firms = vector<set<int>>(firmCount, set<int>());
     conflicts = vector<set<int>>(interCount, set<int>());
-
     subjHist = vector<vector<pair<int, string>>>(subjCount);
     objHist = vector<vector<pair<int, string>>>(objCount);
 
     firms[0].insert(0);
     firms[1].insert(1);
     firms[1].insert(2);
-
-    firms[2].insert(3);
+    firms[1].insert(3);
     firms[2].insert(4);
+    firms[2].insert(5);
 
     conflicts[0].insert(0);
     conflicts[0].insert(1);
-
     conflicts[1].insert(2);
 }
 
 
 int main() {
 
-    init(5, 1, 3, 2);
+    init(6, 1, 3, 2);
 
     while (true) {
         string s;
