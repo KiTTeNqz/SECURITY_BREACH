@@ -1,0 +1,6 @@
+﻿  PREZA3.cpp
+C:\Users\Дмитрий\source\repos\SECURITY_BREACH\PREZA3\PREZA3\PREZA3.cpp(34,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\Дмитрий\source\repos\SECURITY_BREACH\PREZA3\PREZA3\PREZA3.cpp(138,23): warning C4244: инициализация: преобразование "double" в "__int64", возможна потеря данных
+C:\Users\Дмитрий\source\repos\SECURITY_BREACH\PREZA3\PREZA3\PREZA3.cpp(169,41): warning C4244: аргумент: преобразование "__int64" в "int", возможна потеря данных
+C:\Users\Дмитрий\source\repos\SECURITY_BREACH\PREZA3\PREZA3\PREZA3.cpp(169,38): warning C4244: аргумент: преобразование "__int64" в "int", возможна потеря данных
+  PREZA3.vcxproj -> C:\Users\Дмитрий\source\repos\SECURITY_BREACH\PREZA3\x64\Debug\PREZA3.exe
