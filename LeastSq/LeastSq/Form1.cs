@@ -15,10 +15,11 @@ namespace LeastSq
         public Form1()
         {
             InitializeComponent();
-            Linear();
-            Step();
-            Pokaz();
-            Sq();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Draw();
         }
     }
 }
